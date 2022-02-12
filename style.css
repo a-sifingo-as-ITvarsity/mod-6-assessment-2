@@ -202,11 +202,27 @@ ul.styled li{
 /* *******************************************************/
 
 #gallery img{
-	width:120px;
-	margin:12px;
-	-moz-transition: -moz-transform 0.5s ease-in;
+	width: 120px;
+	margin: 15px;
+    -moz-transition: -moz-transform 0.5s ease-in;
 	-webkit-transition: -webkit-transform 0.5s ease-in;
-	-o-transition: -o-transform 0.5s ease-in;
+	-o-transition: -o-transform 0.5s ease-in
+}
+
+figure{
+    display: inline-block;
+    border: 1px;
+    margin: 20px;
+}
+
+figure img{
+    vertical-align: top;
+}
+
+figure figcaption{
+    border: 1px;
+    text-align: center;
+
 }
 
 #gallery img:hover{
